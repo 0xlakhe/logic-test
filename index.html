@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Test</title>
+    
+</head>
+<body>
+    <script>
+        function add7(num1){
+            let sum;
+            sum=num1+7;
+            
+            return sum    
+        }
+        let for7=add7(10);
+        console.log(for7);
+
+        function multiply(num1, num2){
+            let mul;
+            mul=num1*num2;
+            
+            return  mul
+        }
+        let forMulti;
+        forMulti=multiply(4,7);
+        console.log(forMulti)
+
+        function capitalize(string){
+            let firstLetter=string.at(0);
+            firstLetter=firstLetter.toUpperCase();
+            
+            let slicedString=string.slice(1,);
+            let lowerString=slicedString.toLowerCase();
+
+            finalLetter=firstLetter+lowerString;
+            
+            return finalLetter
+        }
+        console.log(capitalize("abcd"))
+
+        function lastLetter(string){
+            let lastLet=string.at(-1)
+
+            return lastLet
+        }
+        console.log(lastLetter("abcd"))
+    </script>
+</body>
+</html>
